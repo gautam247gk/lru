@@ -3,7 +3,8 @@
   "description": "A simple O(1) LRU cache",
   "version": "3.1.0",
   "author": "Chris O'Hara <cohara87@gmail.com>",
-  "main": "index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "homepage": "http://github.com/chriso/lru",
   "repository": {
     "type": "git",
@@ -18,10 +19,14 @@
   "license": "MIT",
   "devDependencies": {
     "standard": "^6.0.8",
-    "vows": "^0.8.1"
+    "typescript": "^5.9.2",
+    "vows": "^0.8.1",
+    "@types/node": "^20.0.0"
   },
   "scripts": {
-    "test": "standard && vows test/*.js --spec"
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "vows test/*.js --spec"
   },
   "dependencies": {
     "inherits": "^2.0.1"
