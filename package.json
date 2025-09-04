@@ -1,17 +1,13 @@
 {
-  "name": "lru",
+  "name": "lru-ts",
   "description": "A simple O(1) LRU cache",
-  "version": "3.1.0",
-  "author": "Chris O'Hara <cohara87@gmail.com>",
+  "version": "4.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "http://github.com/chriso/lru",
+  "homepage": "https://github.com/gautam247gk/lru-ts.git",
   "repository": {
     "type": "git",
-    "url": "http://github.com/chriso/lru.git"
-  },
-  "bugs": {
-    "url": "http://github.com/chriso/lru/issues"
+    "url": "https://github.com/gautam247gk/lru-ts.git"
   },
   "engines": {
     "node": ">= 0.4.0"
