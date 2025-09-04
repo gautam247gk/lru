@@ -2,13 +2,13 @@
 
 **A simple LRU cache supporting O(1) set, get and eviction of old keys in TypeScript**
 
+Nothing really smart, all other names were taken :)
+
 ## Installation
 
 ```bash
-$ npm install lru-ts
+$ npm install smart-lru.ts
 ```
-
-s
 
 ### Example
 
@@ -104,8 +104,7 @@ Respond to events. Currently only the `evict` event is implemented. When a key i
 
 ### Credits
 
-A big thanks to [Dusty Leary](https://github.com/dustyleary) who
-finished the library.
+This is a fork of [lru-cache](https://github.com/chriso/lru)
 
 ### License
 

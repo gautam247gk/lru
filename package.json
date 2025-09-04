@@ -1,13 +1,13 @@
 {
-  "name": "lru-ts",
+  "name": "smart-lru-ts",
   "description": "A simple O(1) LRU cache",
   "version": "4.1.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/gautam247gk/lru-ts.git",
+  "homepage": "https://github.com/gautam247gk/smart-lru-ts.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gautam247gk/lru-ts.git"
+    "url": "https://github.com/gautam247gk/smart-lru-ts.git"
   },
   "engines": {
     "node": ">= 0.4.0"
